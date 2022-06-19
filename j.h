@@ -11,6 +11,7 @@ typedef void _;typedef char C,*S;typedef long I;typedef struct a{I t,r;I d[3];I 
 #define N(n,a...)        {I _n=(n),i=-1;W(++i<_n){a;}}           //!< no stinking loops
 #define P(b,a...)        if(b)R({a;});                           //!< "bail early" predicate aka panic
 #define Z(b,a...)        if(b){a;}else                           //!< be sure to terminate dangling else
+
 #define K1(f) K f(K x)
 #define K2(f) K f(K x,K y)
 
