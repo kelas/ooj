@@ -1,4 +1,7 @@
 #pragma once
+#include<stdlib.h> //malloc
+#include<stdio.h>  //fgets printf
+#include<string.h> //strlen
 
 typedef void _;typedef char C,*S;typedef long I;typedef struct a{I t,r;I d[3];I p[2];}*K;K st[26];
 

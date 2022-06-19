@@ -1,8 +1,4 @@
-#include<stdlib.h> //malloc
-#include<stdio.h>  //fgets printf
-#include<string.h> //strlen
 #include"j.h"
-
 I*ma(I n){R(I*)malloc(n*8);}_ mv(I*d,I*s,I n){N(n,d[i]=s[i]);}
 I tr(I r,I*d){I z=1;N(r,z=z*d[i]);R z;}
 K ga(I t,I r,I*d){K z=(K)ma(5+tr(r,d));zt=t,zr=r,mv(zd,d,r);R z;}
@@ -28,16 +24,15 @@ K1(rev){I r=xr,*d=xd,n=tr(r,d);K z=ga(0,r,d);
  N(n,zp[i]=xp[n-i-1])R z;}
 K1(id){R x;}
 
+C vt[]="+{!<#,*|";
+K(*vd[])()={0,plus,from,find,0,  rsh,cat,mul,0},
+ (*vm[])()={0,id,  size,iota,box,sha,0  ,fst,rev};
+
 I sI(S a,I*n){C c;I i=0,r=*n=0;
  W((c=*a++)&&(c>='0'&&c<='9'))i++,r=r*10u+((I)c-'0');R*n=i,r;}
 _ pi(I i){O("%ld ",i);}_ nl(){O("\n");}_ pt(){O(" ");}
 _ pr(K x){I r=xr,*d=xd,n=tr(r,d);
  Z(xt,N(n,O("< ");pr((K)xp[i])))N(n,pi(xp[i]));}
-
-C vt[]="+{!<#,*|";
-K(*vd[])()={0,plus,from,find,0,  rsh,cat,mul,0},
- (*vm[])()={0,id,  size,iota,box,sha,0  ,fst,rev};
-
 C qp(I a){R a>='a'&&a<='z';}C qv(I a){R a<'a';}
 
 K ex(K*e){I a=(I)*e;
