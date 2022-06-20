@@ -1,5 +1,8 @@
 #include"j.h"
-I*ma(I n){R(I*)malloc(n*8);}_ mv(I*d,I*s,I n){N(n,d[i]=s[i]);}
+
+I WS=0;
+
+I*ma(I n){n=n*8,WS+=n;R(I*)malloc(n);}_ mv(I*d,I*s,I n){N(n,d[i]=s[i]);}
 I tr(I r,I*d){I z=1;N(r,z=z*d[i]);R z;}
 K ga(I t,I r,I*d){K z=(K)ma(5+tr(r,d));zt=t,zr=r,mv(zd,d,r);R z;}
 
@@ -44,6 +47,6 @@ K verb(C c){I i=0;C r;W(r=vt[i++])P(r==c,(K)i)R 0;}
 K*wd(S s){K a,*e;C c;I n=strlen(s);P(!n,(K*)0);s[--n]=0;e=(K*)ma(n+1);n=0;
  W(c=*s){e[n++]=(a=noun(&s))?a:(a=verb(c))?a:((K)(I)c);s++;}R e[n]=0,e;}
 
-int main(){C s[99];W(pt(),fgets(s,99,stdin))pr(ex(wd(s))),nl();R 0;}
+int main(){C s[99];W(O("WS: %ld\n",WS),pt(),fgets(s,99,stdin))pr(ex(wd(s))),nl();R 0;}
 
 //:~
