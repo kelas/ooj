@@ -30,4 +30,12 @@ typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J t,r;J d[
 #define zd z->d
 #define zp z->p
 
+#define Ax (!xr)        //!< atom?
+#define xn (xr?*xd:1)   //!< length
+
+#define Ay (!yr)
+#define yn (yr?*yd:1)
+
+K2(over);K2(scan);K ex(K*e);
+
 //:~
