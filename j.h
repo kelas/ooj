@@ -3,7 +3,8 @@
 #include<stdio.h>  //fgets printf
 #include<string.h> //strlen
 
-typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J t,r;J d[3];J p[2];}*K;static K st[26];
+typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J c,t,r;J d[3];J p[2];}*K;static K st[26];
+
 
 #define O printf
 #define R return
@@ -14,17 +15,21 @@ typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J t,r;J d[
 
 #define K1(f) K f(K x)
 #define K2(f) K f(K x,K y)
+#define K3(f) K f(K x,K y,K z)
 
+#define xc x->c
 #define xt x->t
 #define xr x->r
 #define xd x->d
 #define xp x->p
 
+#define yc y->c
 #define yt y->t
 #define yr y->r
 #define yd y->d
 #define yp y->p
 
+#define zc z->c
 #define zt z->t
 #define zr z->r
 #define zd z->d
