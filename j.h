@@ -41,6 +41,9 @@ typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J c,t,r;J 
 #define Ay (!yr)
 #define yn (yr?*yd:1)
 
-K2(over);K2(scan);K ex(K*e);
+#define VTSZ 8LL        //!< size of verb table
+#define ATSZ 3LL        //!< size of advb table
+
+K2(over);K2(scan);K ex(K*e);K2(set);C qp(J a);C qv(J a);
 
 //:~
