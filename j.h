@@ -30,6 +30,16 @@ typedef void _;typedef char C,*S;typedef long long J;typedef struct a{J t,r;J d[
 #define zd z->d
 #define zp z->p
 
+#define rt r->t
+#define rr r->r
+#define rd r->d
+#define rp r->p
+
+#define ft f->t
+#define fr f->r
+#define fd f->d
+#define fp f->p
+
 #define Ax (!xr)        //!< atom?
 #define xn (xr?*xd:1)   //!< length
 
