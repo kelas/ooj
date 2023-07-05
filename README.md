@@ -1,7 +1,7 @@
 From Roger Hui's An Implementation of J
 =
 
-> One summer weekend in 1989, Arthur Whitney visited Ken Iverson at Kiln Farm and produced — on one page and in one afternoon — an interpreter fragment on the AT&T 3B1 computer. I studied this interpreter for about a week for its organization and programming style; and on Sunday, August 27, 1989, at about four o'clock in the afternoon, wrote the first line of code that became the implementation described in this document.
+> "One summer weekend in 1989, Arthur Whitney visited Ken Iverson at Kiln Farm and produced — on one page and in one afternoon — an interpreter fragment on the AT&T 3B1 computer. I studied this interpreter for about a week for its organization and programming style; and on Sunday, August 27, 1989, at about four o'clock in the afternoon, wrote the first line of code that became the implementation described in this document."
 
 Arthur's one-page interpreter fragment is as follows:
 
