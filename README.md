@@ -49,7 +49,7 @@ I *wd(s)C *s;{I a,n=strlen(s),*e=ma(n+1);C c;
 main(){C s[99];while(gets(s))pr(ex(wd(s)));}
 ```
 
-One summer weekend in 2022
+One summer weekend in 2023
 =
 
 ```
